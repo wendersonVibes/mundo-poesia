@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    list-style: none; 
+}
+
+header{
+    background-color: #3D150E;
+    height: 100px;
+}
+
+header div img{
+    padding-top: 10px;
+    width: 250px;
+}
+
+header ul{
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header ul img{
+    width: 99px;
+}
+
+body {
+    background-image:url(./assets/background1.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #682B16;
+    width: 100%;
+    height: 100%;
+}
+
+body *{
+    font-family: "irish Grover", serif;
+    
+}
+
+.menubox{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-top: 330px;
+    padding-left: 67px;
+    
+}
+
+.menu{
+    padding-inline: 120px;
+    
+}
