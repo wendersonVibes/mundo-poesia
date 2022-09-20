@@ -3,6 +3,7 @@
     padding: 0; /* DEFINIR PREENCHIMENTO ZERO PARA A PÁGINA TODA */
     box-sizing: border-box;   
     list-style: none; /* TIRAR ESTILO DA LISTA <ul> */
+    text-decoration: none;
 }
 
 /* CRIAR BARRA DO CABEÇALHO */
@@ -15,7 +16,13 @@ header{
 /* MODIFICAR IMAGEM DO CABEÇALHO */
 #logo{
     padding-top: 10px;
-    width: 250px;
+    max-width: 250px;
+    width: 90%;
+    transition: transform .3s;
+}
+
+#logo:hover{
+    transform: scale(1.1);
 }
 
 /* ORGANIZAR OS ÍCONES DAS REDES SOCIAIS */
@@ -28,8 +35,14 @@ header ul{
 
 /* AJUSTAR ESPAÇAMENTO E LARGURA DOS ÍCONES DAS REDES SOCIAIS */
 .redessociais{
-    padding-top: 10px;
-    width: 80px;
+    padding-top: 15px;
+    max-width: 80px;
+    width: 100%;
+    transition: transform .3s;
+}
+
+.redessociais:hover{
+    transform: scale(1.1);
 }
 
 /* DEFINIR BACKGROUND DO SITE */
@@ -49,18 +62,27 @@ body *{
     font-family: "irish Grover", serif;
 }
 
+
 /* AJUSTAR TAMANHO E POSICIONAMENTO DOS MENUS DA PÁGINA INICIAL. "menubox" É RESPONSÁVEL POR GUARDAR OS MENUS */
 .menubox{
     /* background-color: rgb(158, 158, 158); */
-    width: 100%;
-    display: flex;
-    padding-top: 250px;
     
+    display: flex;
+    flex: auto;
+    padding-top: 250px;
 }
 
 /* AJUSTAR LARGURA DAS IMAGENS DOS MENUS */
 .imagemmenu{
     width: 60%;
+}
+
+section div a img{
+    transition: transform .3s;
+}
+
+section div a img:hover {
+    transform: scale(1.1);
 }
 
 /* CENTRALIZAR OS ITENS DOS MENUS */
@@ -73,10 +95,15 @@ body *{
 /* MODIFICAR OS NOMES DOS MENUS */
 .nomemenu{
     /* border: 1px solid white; */
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 400;
     color: #fff;   
     margin-bottom: 50px;
+    transition: transform .3s;
+}
+
+.nomemenu:hover{
+    transform: scale(1.1);
 }
 
 
@@ -90,5 +117,7 @@ body *{
 }
 
 #imagemmenuinspiracoes{
-    height: 160px;
+
+    max-height: 155px;
+    height: 90%;
 }
