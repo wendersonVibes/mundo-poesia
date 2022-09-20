@@ -9,15 +9,16 @@
 /* CRIAR BARRA DO CABEÇALHO */
 header{
     background-color: #3D150E;
-    background-size: 100% 100px;
+    background-size: auto;
     height: 100px;
+    width: 100%;
 }
 
 /* MODIFICAR IMAGEM DO CABEÇALHO */
 #logo{
     padding-top: 10px;
     max-width: 250px;
-    width: 90%;
+    width: 80%;
     transition: transform .3s;
 }
 
