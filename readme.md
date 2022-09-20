@@ -1,8 +1,23 @@
 # Projeto Mundo Poesia
 
-Estou trabalhando em um site que pretendo usar para colocar meus textos (poemas/contos/entre outros). 😁
+![preview](./.github/preview.png)
 
-(18/09/2022) O projeto está em andamento. Quando estiver terminado colocarei um aviso aqui.
+> Pequeno projeto amador que estou desenvolvendo
+
+Estou trabalhando em um site por conta própria que pretendo usar para colocar meus textos (poemas/contos/entre outros). 😁
+
+🔗 Link do site [AQUI](https://wendersonvibes.github.io/mundo-poesia/) 🔗
+
+## 👨‍💻 Tecnologias usadas 👨‍💻
+- HTML
+- CSS
+- Git
+- GitHub
+
+## ☎ Contato
+- wenderson1909@gmail.com
+- [Meu instagram](https://www.instagram.com/wenderson_da_silva07/)
+
 
 Aceito ajuda e sugestões de como estruturar o HTML e CSS.
 

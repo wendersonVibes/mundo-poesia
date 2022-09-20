@@ -1,0 +1,54 @@
+* {
+    margin: 0; /* DEFINIR ESPAÇAMENTO ZERO PARA A PÁGINA TODA */
+    padding: 0; /* DEFINIR PREENCHIMENTO ZERO PARA A PÁGINA TODA */
+    box-sizing: border-box;   
+    list-style: none; /* TIRAR ESTILO DA LISTA <ul> */
+    text-decoration: none;
+}
+
+header{
+    background-color: #3D150E;
+    margin: auto;
+    margin-top: 20px;
+    max-width: 300px;
+    border-radius: 50px;
+}
+
+body{
+    background-image: url(./assets/background2.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%;
+    background-color: #682B16;
+}  
+
+body *{
+    font-family: "irish Grover", serif;
+}
+
+#nomedapagina{
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+}
+
+/* POEMAS */
+
+.titulo{
+    text-decoration: underline;
+    margin-top: 10px;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.texto{
+    font-family:'Times New Roman', Times, serif;
+    margin: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+}
+
+
