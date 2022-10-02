@@ -3,7 +3,6 @@
     padding: 0; /* DEFINIR PREENCHIMENTO ZERO PARA A PÁGINA TODA */
     box-sizing: border-box;   
     list-style: none; /* TIRAR ESTILO DA LISTA <ul> */
-    text-decoration: none;
 }
 
 header{
@@ -32,23 +31,28 @@ body *{
     text-align: center;
 }
 
-/* POEMAS */
-
-.titulo{
-    text-decoration: underline;
-    margin-top: 10px;
-    font-size: 24px;
-    color: #fff;
-    text-align: center;
-    letter-spacing: 3px;
+/* PISIÇÃO DA CAIXA QUE GUARDA OS NOMES DOS POEMAS */
+.container{
+    /* background-color: aqua; */
+    /* MUDA A VISUALIZAÇÃO DO CONTAINER */
+    display: flex;
+    /* DIREÇÃO DA MUDANÇA DE VISUALIZAÇÃO. COLUNAS, NO CASO. */
+    flex-direction: column;
+    width: 25%;
+    /* DÁ ESPAÇO NO INÍCIO E NO FIM DO CONTAINER */
+    justify-content: space-between;
+    /* MUDAR POSIÇÃO DOS ELEMENTOS DA LISTA */
+    align-items: left;
+    
 }
 
-.texto{
-    font-family:'Times New Roman', Times, serif;
-    margin: 20px;
-    text-align: center;
+/* ESTILO DOS NOMES DOS POEMAS */
+.nomepoema{
+    /* background-color: red; */
+    
+    font-size: 36px;
     color: #fff;
-    font-size: 24px;
+    margin: 5px;
+    padding: 10px;
 }
-
 
