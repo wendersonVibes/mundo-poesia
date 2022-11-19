@@ -14,10 +14,6 @@ header{
 }
 
 body{
-    background-image: url(./assets/background2.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: 100%;
     background-color: #682B16;
 }  
 
@@ -26,7 +22,7 @@ body *{
 }
 
 #nomedapagina{
-    font-size: 36px;
+    font-size: 25px;
     color: #fff;
     text-align: center;
 }
@@ -43,16 +39,27 @@ body *{
     justify-content: space-between;
     /* MUDAR POSIÇÃO DOS ELEMENTOS DA LISTA */
     align-items: left;
-    
+    margin: 1em;
 }
 
 /* ESTILO DOS NOMES DOS POEMAS */
 .nomepoema{
     /* background-color: red; */
     
-    font-size: 36px;
+    font-size: 25px;
     color: #fff;
     margin: 5px;
-    padding: 10px;
+   
+}
+
+#botaovoltar{
+    color: #fff;
+    font-size: large;
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    margin: 1em;
 }
 
